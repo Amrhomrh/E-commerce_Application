@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "425534675333",
+    "project_id": "phonic-arcana-438515-d0",
+    "storage_bucket": "phonic-arcana-438515-d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425534675333:android:49506b46658dfa35990cec",
+        "android_client_info": {
+          "package_name": "com.example.shoping"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbns0yz2DMdmThXItCIZNavJ68JZFERCo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
