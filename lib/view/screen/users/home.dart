@@ -73,8 +73,7 @@ class Home extends StatelessWidget {
                                 itemBuilder: (context, index) =>
                                     _buildCategoryItem(
                                         context,
-                                        CateogryModel.fromJson(
-                                            controller.cateogry[index]), () {
+                                        CateogryModel.fromJson(controller.cateogry[index]), () {
                                       controller.gotoItems(
                                           controller.cateogry,
                                           controller.cateogry[index]
@@ -115,7 +114,7 @@ class Home extends StatelessWidget {
   }
 }
 
-Widget _buildHeroItem(BuildContext context, String title, String subtitle,
+Widget  _buildHeroItem(BuildContext context, String title, String subtitle,
     String buttonText) {
   return Container(
     margin: EdgeInsets.symmetric(horizontal: 8),

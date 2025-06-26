@@ -118,8 +118,8 @@ class Setings extends StatelessWidget {
                                 .map((items)=>DropdownMenuItem(
                                 enabled: true,
                                 value: items,
-                                child: Text(items)))
-                                .toList(),
+                                child: Text(items))
+                            ).toList(),
                             onChanged: (items){
                               controller.changesLanguage(items);
                             }) ,

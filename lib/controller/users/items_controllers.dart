@@ -18,7 +18,7 @@ class ItemsControllerImp extends ItemsController{
 
   ItemsData itemsData = ItemsData(Get.find());
   StutesRequest stutesRequest=StutesRequest.nune;
-  List cateogry=[];
+  List  cateogry=[];
   int? selectcate;
   late String catoID;
   List itemsCate=[];
